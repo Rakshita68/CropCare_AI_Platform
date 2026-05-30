@@ -1,39 +1,4 @@
-# 🌍 Global Agriculture AI Platform
-
-## Quick Start - One Click Launch
-
-**Double-click this file to start everything:**
-```
-run_complete_system.bat
-```
-
-## Manual Start
-
-### Option 1: Complete System
-```bash
-# Run this in terminal
-cd "d:\new project\agriculure"
-run_complete_system.bat
-```
-
-### Option 2: Individual Components
-```bash
-# Backend only
-cd "d:\new project\agriculure"
-python start_server.py
-
-# Frontend only
-# Double-click: frontend\index.html
-```
-
-## System URLs
-
-| Component | URL |
-|-----------|-----|
-| **Frontend** | `file:///d:/new%20project/agriculure/frontend/index.html` |
-| **Backend API** | `http://localhost:8000` |
-| **API Documentation** | `http://localhost:8000/docs` |
-| **Complete System** | Run `run_complete_system.bat` |
+# 🌍 CropCare AI Platform
 
 ## Features
 
@@ -51,8 +16,4 @@ python start_server.py
 - `POST /api/crop-recommendations` - Crop cultivation guides
 - `GET /api/market-prices` - Live market data
 
-## Requirements
-
-```bash
-pip install fastapi uvicorn python-dotenv
-```
+#
